@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notifications/home_screen.dart';
+import 'package:flutter_notifications/setting_screen.dart';
 import 'package:flutter_notifications/noti_service.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
